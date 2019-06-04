@@ -1,5 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import {MatInputModule} from '@angular/material/input';
+import {MatButtonModule, MatCheckboxModule} from '@angular/material';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -9,7 +11,7 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule, MatInputModule,MatButtonModule,MatCheckboxModule,
     AppRoutingModule
   ],
   providers: [],
